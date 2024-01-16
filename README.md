@@ -57,6 +57,21 @@ sudo docker run -d -v /var/lib/node_bevm_test_storage:/root/.local/share/bevm bt
 ```
 If you want to get incentives from the BEVM TestNet FullNode Program, set "your_node_name" as the BEVM address.
 
+### check container ID
+```
+docker ps
+```
+
+### check Logs Node 
+```
+docker logs -f YOUR-CONTAINER-ID
+```
+
+### delete dockers (this is optional)
+```
+docker remove YOUR-CONTAINER-ID
+```
+
 ### Check it on the telemetry 
 Open https://telemetry.bevm.io/ to check your node state.
 
